@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   </head>
   <body>
     <div id="container">
@@ -38,19 +39,80 @@
           </div>
         </div>
       </div>
+
       <!-- Main Content -->
       <div id="main-content">
         <!-- Content Box 1 -->
-        <div class="content-box"></div>
 
-        <!-- Content Box 2 -->
-        <div class="content-box">
-          <h2>Content 2</h2>
-          <!-- Add your content for the second box here -->
+        <div class="content-box box1">
+          <div class="column-item">
+            <div class="row-container">
+              <div class="profile-picture">
+                <img
+                  src="Profile2.jpg"
+                  alt="Profile Picture"
+                  class="rounded-image"
+                />
+              </div>
+              <div class="greeting-container">
+                <div class="greeting-text">Hi SUDHANSU,</div>
+                <div class="welcome-text">Welcome Back</div>
+              </div>
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="nested-container">
+              <div class="nested-column">
+                <div class="inner-nested-column">
+                  <h5>Today</h5>
+                </div>
+                <div class="inner-nested-column">
+                  <div class="sub-inner-column">
+                    <h2><i class="fa-solid fa-dollar-sign"></i>19,892</h2>
+                    <p>Account Balance</p>
+                  </div>
+                  <div class="sub-inner-column">
+                    <h4><i class="fa-solid fa-dollar-sign"></i>4,000</h4>
+                    <p>Year-to-Date Contribution</p>
+                  </div>
+                  <div class="sub-inner-column">
+                    <h4><i class="fa-solid fa-dollar-sign"></i>1,892</h4>
+                    <p>Total Intrest</p>
+                  </div>
+                </div>
+                <div class="bottom-div">
+                  <select id="doSomthing">
+                    <option>I want to</option>
+                    <option>I don't</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="heading-div">
+              <h3>Recent Transactions</h3>
+            </div>
+            <section class="paragraph-div">
+              <h6>2020-08-07</h6>
+              <p>Withdrawl Transfer to Bank-xxx11</p>
+            </section>
+            <section class="paragraph-div">
+              <h6>2020-07-21</h6>
+              <p>Withdrawl Transfer to Bank-xxx11</p>
+            </section>
+            <section class="paragraph-div">
+              <h6>2020-07-16</h6>
+              <p>Withdrawl Transfer to Bank-xxx11</p>
+            </section>
+          </div>
         </div>
 
+        <!-- Content Box 2 -->
+        <div class="content-box box2" id="chart"></div>
+
         <!-- Content Box 3 -->
-        <div class="content-box">
+        <div class="content-box box3">
           <h2>Content 3</h2>
           <!-- Add your content for the third box here -->
         </div>
