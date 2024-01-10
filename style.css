@@ -15,6 +15,18 @@ body {
   border-radius: 20px;
   background-color: #FFFFFF;
 }
+#main-content {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 98%;
+  height: 100%;
+}
+.content-box {
+  background-color: #f0f0f0;
+  /* margin:25px 20px; */
+}
 
 /*----Sidebar Section---- */
 #sidebar {
@@ -78,16 +90,7 @@ body {
   background-color: rgb(42, 80, 252);
   color: snow;
 }
-#main-content {
-  flex: 1;
-  display: flex;
-  width: 98%;
-  height: 100%;
-}
-.content-box {
-  background-color: #f0f0f0;
-  /* margin:25px 20px; */
-}
+
 
 /* Box1 */
 .content-box .box1 {
@@ -185,13 +188,123 @@ body {
 }
 .history-container{
   margin-left: 7px;
-
 }
 
 /* --------Box2-------- */
 .box2{
-  width: 48%;
+  width: 590px;
+  height: 100%;
   background-color:transparent;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+.retirement{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  /* background-color:rosybrown; */
+}
+#income{
+  color: blue;
+  font-size: small;
+}
+#incomeText{
+  font-size: large;
+  font-weight: 500;
+}
+.dollar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#dollar{
+  width: 140px;
+}
+.lineDiv{
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+  margin-top: 10px;
+}
+#dollarlogo{
+  font-weight: 700;
+  font-size: larger;
+}
+#dollarText{
+  font-size: small;
+}
+.overtime{
+  width: 100%;
+  height: 44%;
+  display: flex;
+  flex-direction: column;
+  /* background-color:orange; */
+}
+#employ{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+}
+#Contribution{
+  font-weight: 700;
+  height: 100%;
+}
+#employData{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#employDataInfo{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+#employDot{
+  width: 15px;
+  height: 10px;
+  margin-top: 2px;
+  border-radius: 3px;
+}
+#employer{
+  font-size: small;
+  font-weight: lighter;
+  color: #777;
+}
+#employerValue{
+  font-size: small;
+  font-weight:700;
+}
+
+#chartBar{
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+}
+#chart{
+  width: 100%;
+}
+.peers{
+  width: 100%;
+  height: 36%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color:blueviolet; */
+}
+#peerText{
+  width: 100%;
+  height: 20%;
+}
+#percentage{
+  width: 100%;
+  height: 80%;
+  border: 1px solid red;
 }
 
 /* ------Box3---- */
