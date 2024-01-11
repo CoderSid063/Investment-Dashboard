@@ -1,3 +1,8 @@
+// Function for Range Input
+function updateRangeValue(value, elementId) {
+  document.getElementById(elementId).innerText = value + "%";
+}
+
 var options0 = {
   series: [
     {
