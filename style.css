@@ -3,7 +3,7 @@ body {
   font-family: "Inter", sans-serif;
   display: flex;
   box-sizing: border-box;
-  background-color: #F0FFF0;
+  background-color: #f0fff0;
 }
 
 #container {
@@ -13,7 +13,7 @@ body {
   height: 100%;
   margin: 8px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 #main-content {
   flex: 1;
@@ -24,7 +24,6 @@ body {
   height: 100%;
   /* border: 1px solid blueviolet; */
 }
-
 
 /*----Sidebar Section---- */
 #sidebar {
@@ -39,21 +38,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.butterfly{
+.butterfly {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 12px;
   width: 40px;
   height: 50px;
-  margin-left: -7px ;
-;
+  margin-left: -7px;
 }
-.butterfly-img{
+.butterfly-img {
   width: 100%;
   height: 100%;
 }
-.butterfly a{
+.butterfly a {
   margin-left: 8px;
   color: rgb(57, 57, 243);
   font-size: large;
@@ -70,9 +68,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-.logo-column img{
+.logo-column img {
   width: 10px;
-
 }
 #bottom-sidebar {
   background-color: transparent;
@@ -89,31 +86,30 @@ body {
   color: snow;
 }
 
-
 /* Box1 */
-.box1{
+.box1 {
   width: 25%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  background-color: #f5f5f5;
 }
-.column-item{
+.column-item {
   height: 33%;
 }
 .first-container {
   display: flex;
   width: 93%;
   height: 100px;
-  margin-left: 10px 
+  margin-left: 10px;
 }
 .profile-picture {
   margin-right: 10px;
 }
 .rounded-image {
   border-radius: 50%;
-  width: 100px; 
-  height: 100px; 
+  width: 100px;
+  height: 100px;
 }
 .greeting-container {
   display: flex;
@@ -121,82 +117,81 @@ body {
   justify-content: center;
 }
 .greeting-text {
-  font-size: 20px; 
+  font-size: 20px;
   font-size: x-large;
   font-weight: bold;
 }
 .greeting-container section {
-  font-size: 12px; 
+  font-size: 12px;
   font-weight: 600;
   padding-top: 5px;
-  color: #777; 
+  color: #777;
 }
 /* ------------- */
 
-.middle-container{
+.middle-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 250px;
-  margin-left: 16px
+  margin-left: 16px;
 }
-.balance{
+.balance {
   display: flex;
   flex-direction: column;
 }
-.sub-inner-column{
+.sub-inner-column {
   display: flex;
   flex-direction: column;
   margin: 8px;
 }
-#top{
+#top {
   font-size: x-large;
   font-weight: 700;
 }
-#top2{
+#top2 {
   font-size: small;
 }
-#invest{
+#invest {
   font-weight: 700;
 }
 .bottom-div {
   height: 45px;
   padding-left: 5px;
 }
-#doSomthing{
+#doSomthing {
   width: 35%;
   height: 39px;
   display: block;
   border-radius: 10px;
   background-color: rgb(58, 58, 204);
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   padding-left: 8px;
 }
 /* --------------- */
-.bottom{
+.bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 250px;
-  margin-left: 16px
+  margin-left: 16px;
 }
-.history-container{
+.history-container {
   margin-left: 7px;
 }
 
 /* --------Box2-------- */
-.box2{
+.box2 {
   width: 590px;
   /* height: 90%; */
-  background-color:transparent;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   /* gap: 3px; */
-  background-color: #FFFFFF;
   margin-top: 20px;
 }
-.retirement{
+.retirement {
   width: 100%;
   height: 20%;
   display: flex;
@@ -206,131 +201,131 @@ body {
   /* border: 1px solid black; */
   /* background-color:rosybrown; */
 }
-#income{
+#income {
   color: blue;
   font-size: small;
 }
-#incomeText{
+#incomeText {
   font-size: large;
   font-weight: 500;
 }
-.dollar{
+.dollar {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-#dollar{
+#dollar {
   width: 140px;
 }
-.lineDiv{
+.lineDiv {
   width: 100%;
   height: 3px;
   background-color: blue;
   margin-top: 10px;
 }
-#dollarlogo{
+#dollarlogo {
   font-weight: 700;
   font-size: larger;
 }
-#dollarText{
+#dollarText {
   font-size: small;
 }
-.overtime{
+.overtime {
   width: 100%;
   height: 50%;
   display: flex;
   flex-direction: column;
   /* background-color:orange; */
 }
-#employ{
+#employ {
   display: flex;
   flex-direction: column;
   gap: 6px;
   width: 100%;
   height: 20%;
 }
-#Contribution{
+#Contribution {
   font-weight: 700;
   height: 100%;
 }
-#employData{
+#employData {
   display: flex;
   width: 100%;
   height: 100%;
 }
-#employDataInfo{
+#employDataInfo {
   display: flex;
   gap: 10px;
   width: 100%;
   height: 100%;
 }
-#employDot{
+#employDot {
   width: 15px;
   height: 10px;
   margin-top: 2px;
   border-radius: 3px;
 }
-#employer{
+#employer {
   font-size: small;
   font-weight: lighter;
   color: #777;
 }
-#employerValue{
+#employerValue {
   font-size: small;
-  font-weight:700;
+  font-weight: 700;
 }
 
-#chartBar{
+#chartBar {
   width: 100%;
   height: 80%;
 }
-#chart{
+#chart {
   width: 100%;
 }
-.peers{
+.peers {
   width: 100%;
   height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-#peerText{
+#peerText {
   width: 100%;
   height: 20%;
   margin-top: 15px;
 }
-#percentage{
+#percentage {
   display: flex;
   gap: 20px;
   width: 100%;
   height: 80%;
   /* border: 1px solid red; */
 }
-#percentageText{
+#percentageText {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 25%;
   /* height: 100%; */
 }
-.percentageInfo{
+.percentageInfo {
   width: 100%;
   display: flex;
   /* justify-content: space-evenly; */
 }
-.details{
+.details {
   font-size: 15px;
   font-weight: 500;
 }
-#under{
+#under {
   border: none;
 }
 
-#perChart{
+#perChart {
   width: 100%;
   display: flex;
 }
-.perChart{
+.perChart {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -338,13 +333,12 @@ body {
 .perChart > div {
   flex: 1;
 }
-.perChart div{
+.perChart div {
   margin-top: 5px;
 }
 
-
 /* ------Box3---- */
-.box3{
+.box3 {
   width: 25%;
   height: 600px;
   display: flex;
@@ -352,40 +346,123 @@ body {
   flex-direction: column;
   gap: 30px;
 }
-.sb{
+.sb {
   width: 82%;
   margin-left: 27px;
 }
-.startegyBox{
-  height: 60%;
+.startegyBox {
+  height: 55%;
   border-radius: 6px;
   margin-top: 20px;
   /* border: 1px solid blue; */
-  background-color: #e2e2e2;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
 }
-.startegyBox2{
-  height: 18%;
-  border: 1px solid black;
+.retirementHeading {
+  font-size: large;
+  font-weight: 600;
 }
+
 .containerBox {
   width: 90%;
   height: 100px;
   display: flex;
   flex-direction: column;
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
-.containerBox section{
+.containerBox section {
   width: 100%;
   height: 30px;
   display: flex;
-  justify-content: space-evenly;
-  
+  justify-content: space-between;
 }
 input[type="range"] {
   width: 150px;
+  height: 30px;
 }
-
+.heading {
+  font-weight: 600;
+  font-size: 13px;
+}
+#startegyBox1 {
+  width: 90%;
+  /* height: 60px; */
+  /* border: 1px solid red; */
+}
+#startegy-inner-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+#startegy-inner-box1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.startegy-inner-box1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 13px;
+}
+.button {
+  width: 73%;
+  background-color: rgb(84 84 209);
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+#startegyBox2 {
+  width: 90%;
+  /* height: 20px; */
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+#startegyBox2 a {
+  font-size: small;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(7, 112, 211);
+}
+.startegyBox2 {
+  height: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.startegyBox2Line {
+  height: 100%;
+  width: 3px;
+  background-color: #d1cece;
+}
+.startegyBox2Text{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 2px solid blue; */
+}
+.startegyBox2Text a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(51 121 253);
+  font-weight: 600;
+}
 
 @media (min-width: 300px) and (max-width: 600px) {
   #container {
@@ -398,7 +475,6 @@ input[type="range"] {
     width: 100vw;
     position: fixed;
     top: 0;
-    height: 2%; 
-   
+    height: 2%;
   }
 }
