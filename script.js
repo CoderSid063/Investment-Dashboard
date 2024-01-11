@@ -7,7 +7,7 @@ var options0 = {
   ],
   chart: {
     type: "bar",
-    height: 240,
+    height: 250,
   },
   plotOptions: {
     bar: {

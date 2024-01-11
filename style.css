@@ -22,11 +22,9 @@ body {
   flex-wrap: wrap;
   width: 98%;
   height: 100%;
+  border: 1px solid blueviolet;
 }
-.content-box {
-  background-color: #f0f0f0;
-  /* margin:25px 20px; */
-}
+
 
 /*----Sidebar Section---- */
 #sidebar {
@@ -93,15 +91,12 @@ body {
 
 
 /* Box1 */
-.content-box .box1 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 .box1{
   width: 25%;
   height: 100%;
-  
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
 }
 .column-item{
   height: 33%;
@@ -197,6 +192,7 @@ body {
   background-color:transparent;
   display: flex;
   flex-direction: column;
+  gap: 6px;
   background-color: #FFFFFF;
 }
 .retirement{
@@ -204,7 +200,8 @@ body {
   height: 20%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 12px;
+  /* justify-content: space-evenly; */
   /* border: 1px solid black; */
   /* background-color:rosybrown; */
 }
@@ -247,6 +244,7 @@ body {
 #employ{
   display: flex;
   flex-direction: column;
+  gap: 6px;
   width: 100%;
   height: 20%;
 }
@@ -312,12 +310,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   width: 25%;
-  height: 100%;
+  /* height: 100%; */
 }
 .percentageInfo{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 .details{
   font-size: 15px;
@@ -347,6 +345,7 @@ body {
 /* ------Box3---- */
 .box3{
   width: 25%;
+  border: 1px solid red;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
