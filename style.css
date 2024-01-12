@@ -9,6 +9,7 @@ body {
 #container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   width: 100%;
   height: 100%;
   margin: 8px;
@@ -18,16 +19,13 @@ body {
 #main-content {
   flex: 1;
   display: flex;
-  gap: 20px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 98%;
   height: 100%;
-  /* border: 1px solid blueviolet; */
 }
 
 /*----Sidebar Section---- */
 #sidebar {
-  width: 2%;
   background-color: transparent;
   color: rgb(54, 141, 212);
   padding: 10px;
@@ -89,19 +87,16 @@ body {
 /* Box1 */
 .box1 {
   width: 25%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-color: #f5f5f5;
-}
-.column-item {
-  height: 33%;
 }
 .first-container {
   display: flex;
   width: 93%;
   height: 100px;
-  margin-left: 10px;
+  margin-left: 22px;
 }
 .profile-picture {
   margin-right: 10px;
@@ -134,7 +129,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   height: 250px;
-  margin-left: 16px;
+  margin-left: 20px;
 }
 .balance {
   display: flex;
@@ -172,23 +167,37 @@ body {
 /* --------------- */
 .bottom {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 250px;
-  margin-left: 16px;
+  margin-left: 28px;
 }
 .history-container {
-  margin-left: 7px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+#transitionHistory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 11px;
+  margin-top: 11px;
+  font-size: 13px;
+}
+#transitionHistoryText {
+  font-weight: 600;
+  color: rgb(70 71 72);
+}
+#transitionHistoryDate {
+  color: rgb(174 177 181);
 }
 
 /* --------Box2-------- */
 .box2 {
   width: 590px;
-  /* height: 90%; */
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  /* gap: 3px; */
   margin-top: 20px;
 }
 .retirement {
@@ -197,9 +206,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  /* justify-content: space-evenly; */
-  /* border: 1px solid black; */
-  /* background-color:rosybrown; */
 }
 #income {
   color: blue;
@@ -235,7 +241,6 @@ body {
   height: 50%;
   display: flex;
   flex-direction: column;
-  /* background-color:orange; */
 }
 #employ {
   display: flex;
@@ -299,19 +304,16 @@ body {
   gap: 20px;
   width: 100%;
   height: 80%;
-  /* border: 1px solid red; */
 }
 #percentageText {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 25%;
-  /* height: 100%; */
 }
 .percentageInfo {
   width: 100%;
   display: flex;
-  /* justify-content: space-evenly; */
 }
 .details {
   font-size: 15px;
@@ -342,7 +344,6 @@ body {
   width: 25%;
   height: 600px;
   display: flex;
-  /* border: 1px solid red; */
   flex-direction: column;
   gap: 30px;
 }
@@ -354,7 +355,6 @@ body {
   height: 55%;
   border-radius: 6px;
   margin-top: 20px;
-  /* border: 1px solid blue; */
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -372,7 +372,6 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  /* border: 1px solid black; */
 }
 .containerBox section {
   width: 100%;
@@ -390,15 +389,12 @@ input[type="range"] {
 }
 #startegyBox1 {
   width: 90%;
-  /* height: 60px; */
-  /* border: 1px solid red; */
 }
 #startegy-inner-box {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* border: 1px solid black; */
 }
 #startegy-inner-box1 {
   width: 100%;
@@ -429,9 +425,7 @@ input[type="range"] {
 }
 #startegyBox2 {
   width: 90%;
-  /* height: 20px; */
   text-align: center;
-  /* border: 1px solid blue; */
 }
 #startegyBox2 a {
   font-size: small;
@@ -449,13 +443,12 @@ input[type="range"] {
   width: 3px;
   background-color: #d1cece;
 }
-.startegyBox2Text{
+.startegyBox2Text {
   width: 85%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: 2px solid blue; */
 }
 .startegyBox2Text a {
   text-decoration: none;

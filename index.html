@@ -96,13 +96,25 @@
           </div>
           <div class="bottom">
             <div class="history-container">
-              <h3>Recent Transactions</h3>
-              <h6>2020-08-07</h6>
-              <p>Withdrawl Transfer to Bank-xxx11</p>
-              <h6>2020-07-21</h6>
-              <p>Withdrawl Transfer to Bank-xxx11</p>
-              <h6>2020-07-16</h6>
-              <p>Withdrawl Transfer to Bank-xxx11</p>
+              <div id="transitionHistoryText">Recent Transactions</div>
+              <div id="transitionHistory">
+                <section id="transitionHistoryDate">2020-08-07</section>
+                <section id="transitionHistoryText">
+                  Withdrawl Transfer to Bank-xxx11
+                </section>
+              </div>
+              <div id="transitionHistory">
+                <section id="transitionHistoryDate">2020-07-21</section>
+                <section id="transitionHistoryText">
+                  Withdrawl Transfer to Bank-xxx11
+                </section>
+              </div>
+              <div id="transitionHistory">
+                <section id="transitionHistoryDate">2020-07-16</section>
+                <section id="transitionHistoryText">
+                  Withdrawl Transfer to Bank-xxx11
+                </section>
+              </div>
             </div>
           </div>
         </div>
@@ -233,7 +245,7 @@
                   type="range"
                   min="0"
                   max="100"
-                  value="40"
+                  value="30"
                   step="1"
                   oninput="updateRangeValue(this.value, 'rangeValue')"
                 />
