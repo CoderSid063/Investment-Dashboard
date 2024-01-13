@@ -574,11 +574,6 @@ input[type="range"] {
     width: 90%;
     gap: 15px;
   }
-  .retirement ,
-  .overtime ,
-  .peers{
-    
-  }
   .retirement{
     justify-content: space-evenly;
   }
@@ -639,4 +634,16 @@ input[type="range"] {
 .value2{
   padding-left: 9px;
 }
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+ .sB{
+  margin-bottom: 60px;
+}
+/*.sB1{
+  margin-bottom: 150px;
+} */
 }
