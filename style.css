@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  display: flex;
+  /* display: flex; */
   box-sizing: border-box;
   background-color: #f0fff0;
 }
@@ -74,10 +74,14 @@ body {
 }
 .logo-column i {
   border-radius: 3px;
-  margin-bottom: 30px;
-  cursor: pointer;
-  height: 20px;
-  font-size: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 28px;
+    width: 95%;
+    padding-left: 5px;
+    padding-top: 5px;
+    /* background-color: blue; */
+    font-size: 20px;
 }
 .logo-column i:hover {
   background-color: rgb(42, 80, 252);
@@ -167,7 +171,7 @@ body {
 /* --------------- */
 .bottom {
   display: flex;
-  margin-left: 28px;
+  margin-left: 20px;
 }
 .history-container {
   display: flex;
@@ -345,7 +349,7 @@ body {
   height: 600px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  justify-content: space-evenly;
 }
 .sb {
   width: 82%;
@@ -354,7 +358,6 @@ body {
 .startegyBox {
   height: 55%;
   border-radius: 6px;
-  margin-top: 20px;
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -457,17 +460,112 @@ input[type="range"] {
   font-weight: 600;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
-  #container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #ffffff;
+  }
+  #container{
+    margin: 0;
+    width: 100vw;
+  }
+  #main-content {
+    width: 100%;
+    background-color: white;
+    flex-direction: column; /* Stack main content on top of the sidebar */
   }
 
   #sidebar {
-    width: 100vw;
+    display: flex;
     position: fixed;
-    top: 0;
-    height: 2%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 97%;
+    margin-left: 0;
+    height: 30px;
+    background-color: white;
+    border-radius: 0;
+    /* border-top: 1px solid #d1cece; */
+  }
+  #top-sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .logo-column{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logo-column i{
+    font-size: 28px;
+    color: #484848;
+    height: 33px;
+    width: 40px;
+  }
+  .butterfly,
+  #bottom-sidebar {
+    display: none; /* Hide butterfly and bottom-sidebar */
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 95%; /* Make all boxes take full width */
+    margin-top: 45px; /* Remove top margin for boxes */
+  }
+
+  .box1{
+    margin-left: 20px;
+    background-color: transparent;
+    gap: 40px;
+  }
+  .first-container,
+  .middle-container,
+  .bottom {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin-right: 38px;
+  }
+  .first-container{
+    width: 90%;
+    background-color: transparent;
+  }
+  .middle-container{
+    height: 320px;
+    gap: 8px;
+  }
+  .balance{
+    padding-left: 10px;
+    gap: 15px;
+  }
+  .flex{
+    font-size: 20px;
+    position: absolute;
+    padding-top: 158px;
+    padding-left: 175px;
+  }
+  #invest{
+    font-size: 25px;
+  }
+  #top{
+    font-size: 55px;
+  }
+  .bottom-div{
+    margin-left: 15px;
+  }
+  #doSomthing{
+    width: 85%;
+    margin-left: 12px;
+  }
+  .bottom{
+    padding-top: 17px;
+    padding-left: 19px;
   }
 }
