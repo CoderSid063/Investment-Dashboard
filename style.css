@@ -219,12 +219,12 @@ body {
   font-size: large;
   font-weight: 500;
 }
-.dollar {
+.uniqeDollar {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-#dollar {
+.dollar {
   width: 140px;
 }
 .lineDiv {
@@ -233,11 +233,11 @@ body {
   background-color: blue;
   margin-top: 10px;
 }
-#dollarlogo {
+.dollarlogo {
   font-weight: 700;
-  font-size: larger;
+  font-size: 20px;
 }
-#dollarText {
+.dollarText {
   font-size: small;
 }
 .overtime {
@@ -568,4 +568,75 @@ input[type="range"] {
     padding-top: 17px;
     padding-left: 19px;
   }
+
+  .box2{
+    margin-left: 20px;
+    width: 90%;
+    gap: 15px;
+  }
+  .retirement ,
+  .overtime ,
+  .peers{
+    
+  }
+  .retirement{
+    justify-content: space-evenly;
+  }
+  .uniqeDollar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  .df{
+    position: absolute;
+    padding-top: 86px;
+    padding-left: 170px;
+  }
+  #dollarlogo{
+    font-size: 46px;
+  }
+  .oneBox{
+    width: 100%;
+  }
+  .full{
+    width: 100%;
+  }
+  .lg{
+    font-size: 36px;
+    padding-top: 10px;
+  }
+  #employDataInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  #percentage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    padding-top: 20px;
+  }
+  #percentageText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+}
+.percentageInfo {
+  gap: 10px;
+}
+.value1{
+  padding-left: 24px;
+}
+.value2{
+  padding-left: 9px;
+}
 }
